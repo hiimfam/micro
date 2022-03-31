@@ -1,0 +1,10 @@
+---
+version: 1 
+Artist: 
+  url: http://localhost:8090/artists
+Songs: 
+  url: http://localhost:8090/songs
+events:
+  hostname: william-micro.eastus2.cloudapp.azure.com
+  port: 9092
+  topic: events

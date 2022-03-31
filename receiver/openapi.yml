@@ -1,0 +1,82 @@
+---
+openapi: 3.0.0
+info:
+  title: Simple Artist API
+  description: This is a API recieves new artists and songs from users and stores the information in a database for record labels and music enthusiasts.
+  contact:
+    email: williampham100@yahoo.com
+  version: 1.0.0
+
+paths:
+  /artists:
+    post:
+      summary: Lets a user post a new artist
+      description: Adds an artist to the database
+      operationId: app.addArtist
+      requestBody:
+        description: Artist item to add
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Artist'
+      responses:
+        "201":
+          description: artist added
+        "400":
+          description: invalid object
+  /songs:
+    post:
+      summary: Lets a user post a new song
+      description: Adds a song to the database
+      operationId: app.addSong
+      requestBody:
+        description: Song item add
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Songs'
+      responses:
+        "201":
+          description: song added
+        "400":
+          description: invalid object
+components:
+  schemas:
+    Artist:
+      required:
+      - artist_id
+      - artist_name
+      - username
+      type: object
+      properties:
+        artist_name:
+          type: string
+          example: Hong Da-bin
+        username:
+          type: string
+          example: DPR LIVE
+        artist_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        albums_recorded:
+          type: integer
+          example: 3
+    Songs:
+      required:
+      - name
+      type: object
+      properties:
+        name:
+          type: string
+          example: Summer Tights
+        username:
+          type: string
+          example: DPR LIVE
+        song_length:
+          type: integer
+          example: 180
+        released_date:
+          type: string
+          format: date
+
