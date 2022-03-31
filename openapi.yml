@@ -1,0 +1,135 @@
+---
+openapi: 3.0.0
+info:
+  title: Simple Artist API
+  description: This provides audit info
+  contact:
+    email: williampham100@yahoo.com
+  version: 1.0.0
+
+paths:
+  /artists:
+    get:
+      summary: Gets new artist post
+      operationId: app.get_artist_reading
+      description: Gets added artist from eventstore
+      parameters:
+        - name: index
+          in: query
+          description: Gets the artist at the index in event store
+          schema:
+            type: integer
+            example: 100
+      responses:
+        '200':
+          description: Successfully returned artist event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/Artist'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /songs:
+    get:
+      summary: Gets a new song from history
+      operationId: app.get_song_reading
+      description: Gets added songs from the event store
+      parameters:
+        - name: index
+          in: query
+          description: Gets the song at the index in event store
+          schema:
+            type: integer
+            example: 100
+      responses:
+        '200':
+          description: Successfully returned song event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/Songs'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    Artist:
+      required:
+      - artist_name
+      - username
+      - artist_id
+      type: object
+      properties:
+        artist_name:
+          type: string
+          example: Hong Da-bin
+        username:
+          type: string
+          example: DPR LIVE
+        artist_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        albums_recorded:
+          type: integer
+          example: 3
+        timestamp:
+          type: string 
+          format: date-time 
+          example: '2022-01-11T09:12:33.001Z'
+    Songs:
+      required:
+      - name
+      type: object
+      properties:
+        name:
+          type: string
+          example: Summer Tights
+        username:
+          type: string
+          example: DPR LIVE
+        song_length:
+          type: integer
+          example: 180
+        released_date:
+          type: string
+          format: date
+        timestamp:
+          type: string 
+          format: date-time 
+          example: '2022-01-11T09:12:33.001Z'
