@@ -1,0 +1,117 @@
+---
+openapi: 3.0.0
+info:
+  title: Simple Artist API
+  description: This is a API recieves new artists and songs from users and stores the information in a database for record labels and music enthusiasts.
+  contact:
+    email: williampham100@yahoo.com
+  version: 1.0.0
+
+paths:
+  /artists:
+    get:
+      summary: Gets new artist post
+      operationId: app.get_add_artist
+      description: Gets added artist in readings after user posts
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '200':
+          description: Successfully returned a list of added artists
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Artist'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /songs:
+    get:
+      summary: Gets a new song
+      operationId: app.get_add_song
+      description: Gets added songs in readings after user posts
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '200':
+          description: Successfully returned a list of songs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Songs'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    Artist:
+      required:
+      - artist_name
+      - username
+      - artist_id
+      type: object
+      properties:
+        artist_name:
+          type: string
+          example: Hong Da-bin
+        username:
+          type: string
+          example: DPR LIVE
+        artist_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        albums_recorded:
+          type: integer
+          example: 3
+        trace_id:
+          type: string
+          example: "8061363130"
+    Songs:
+      required:
+      - name
+      type: object
+      properties:
+        name:
+          type: string
+          example: Summer Tights
+        username:
+          type: string
+          example: DPR LIVE
+        song_length:
+          type: integer
+          example: 180
+        released_date:
+          type: string
+          format: date
+        trace_id:
+          type: string
+          example: "8061363130"
