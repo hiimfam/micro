@@ -1,0 +1,55 @@
+---
+openapi: 3.0.0
+info:
+  title: Stats API
+  description: This is a API provides stats.
+  version: "1.0.0"
+  contact:
+    email: williampham100@yahoo.com
+
+paths:
+  /stats:
+    get:
+      summary: Gets the event stats
+      operationId: app.get_stats
+      description: Gets added artists and songs readings processsed statistics
+      responses:
+        '200':
+          description: Successfully returned a list of added artists and songs events
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/ReadingStats'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    ReadingStats:
+      required:
+      - num_artist_readings
+      - max_albums_recorded_reading
+      - max_song_length_reading
+      - num_song_readings
+      properties:
+        num_artist_readings:
+          type: integer
+          example: 500000
+        max_albums_recorded_reading:
+          type: integer
+          example: 20
+        max_song_length_reading:
+          type: integer
+          example: 600
+        num_song_readings:
+          type: integer
+          example: 500000
+      type: object
