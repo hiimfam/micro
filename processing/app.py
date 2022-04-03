@@ -11,6 +11,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from base import Base
 from stats import Stats
+from flask_cors import CORS, cross_origin
 
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
@@ -117,8 +118,9 @@ def init_scheduler():
     sched.start()
 
 
-app = connexion.FlaskApp(__name__, specification_dir='') 
-app.add_api("openapi.yml", strict_validation=True, validate_responses=True) 
+app = connexion.FlaskApp(__name__, specification_dir='')
+CORS(app.app)
+app.app.config['CORS_HEADERS'] = 'Content-Type'
 
 if __name__ == "__main__": 
     init_scheduler()
