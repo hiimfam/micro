@@ -4,6 +4,7 @@ import logging
 import logging.config
 import json
 from pykafka import KafkaClient
+from flask_cors import CORS, cross_origin
 
 
 with open('app_conf.yml', 'r') as f:
@@ -76,7 +77,8 @@ def get_song_reading(index):
     return {"message": "Not Found"}, 404
 
 app = connexion.FlaskApp(__name__, specification_dir='')
-app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
+CORS(app.app)
+app.app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 if __name__ == "__main__":
