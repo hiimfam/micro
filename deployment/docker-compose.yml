@@ -72,7 +72,7 @@ services:
       # Where our data will be persisted 
     volumes: 
       - my-db:/var/lib/mysql
-  dashboard:
+  dashboard-ui:
     image: dashboard
     ports:
       - "3000:3000"
