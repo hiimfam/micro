@@ -15,6 +15,8 @@ from threading import Thread
 from base import Base
 from artists import addArtist
 from songs import addSong
+from sqlalchemy import and_
+from time import sleep
 
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
@@ -72,14 +74,17 @@ def report_add_song(body):
     session.close()
 
 
-def get_add_artist(timestamp):
+def get_add_artist(timestamp, end_timestamp):
     """ Gets new artist """
 
     session = DB_SESSION()
 
     timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
 
-    readings = session.query(addArtist).filter(addArtist.date_created >= timestamp_datetime)
+    readings = session.query(addArtist).filter(
+        and_(addArtist.date_created >= timestamp_datetime,
+            addArtist.date_created < end_timestamp_datetime))
 
     results_list = []
 
@@ -94,14 +99,17 @@ def get_add_artist(timestamp):
     return results_list, 200
 
 
-def get_add_song(timestamp):
+def get_add_song(timestamp, end_timestamp):
     """ Gets new song """
 
     session = DB_SESSION()
 
     timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
 
-    readings = session.query(addSong).filter(addSong.date_created >= timestamp_datetime)
+    readings = session.query(addArtist).filter(
+        and_(addSong.date_created >= timestamp_datetime,
+            addSong.date_created < end_timestamp_datetime))
 
     results_list = []
 
