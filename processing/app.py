@@ -60,7 +60,8 @@ def populate_stats():
     session.close()
 
     new_stats = latest_stats
-    response = requests.get('http://localhost:8090/artists', params={"timestamp": latest_stats["last_updated"]})
+    current_timestamp = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+    response = requests.get('http://localhost:8090/artists' + "?start_timestamp=" + last_updated + "&end_timestamp=" + current_timestamp)
 
     if response and response.status_code == 200:
         if len(response.json()) != 0:
@@ -76,7 +77,7 @@ def populate_stats():
     else:
         logging.error(f'Albums recorded response failed with {response.status_code}')
 
-    response = requests.get('http://localhost:8090/songs', params={"timestamp": latest_stats["last_updated"]})
+    response = requests.get('http://localhost:8090/songs' + "?start_timestamp=" + last_updated + "&end_timestamp=" + current_timestamp)
 
     if response and response.status_code == 200:
         if len(response.json()) != 0:
@@ -99,7 +100,7 @@ def populate_stats():
                   new_stats["max_albums_recorded_reading"],
                   new_stats["max_song_length_reading"],
                   new_stats["num_song_readings"],
-                  datetime.datetime.now())
+                  new_stats["last_updated"])
 
     session.add(stat)
 
