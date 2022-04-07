@@ -93,8 +93,8 @@ def get_add_artist(timestamp, end_timestamp):
 
     session.close()
 
-    logger.info("Query for add song in readings after %s returns %d results" %
-                (timestamp, len(results_list)))
+    logger.info("Query for add song in readings after %s and before %s returns %d results" %
+                (timestamp, end_timestamp, len(results_list)))
 
     return results_list, 200
 
@@ -118,8 +118,8 @@ def get_add_song(timestamp, end_timestamp):
 
     session.close()
 
-    logger.info("Query for add song readings after %s returns %d results" %
-                (timestamp, len(results_list)))
+    logger.info("Query for add song readings after %s and before %s returns %d results" %
+                (timestamp, end_timestamp, len(results_list)))
 
     return results_list, 200
 
