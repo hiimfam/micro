@@ -9,3 +9,6 @@ events:
   hostname: william-micro.eastus2.cloudapp.azure.com
   port: 9092
   topic: events
+kafka-connect:
+  retry_count: 10
+  sleep_time: 2
