@@ -125,8 +125,20 @@ def get_add_song(timestamp, end_timestamp):
 
 def process_messages():
     """ Process event messages """
-    hostname1 = "%s:%d" % (app_config["events"]["hostname"], app_config["events"]["port"])
-    client = KafkaClient(hosts=hostname1)
+    retry_count = 0
+    while retry_count < app_config["kafka_connect"]["retry_count"]:
+        try:
+            logger.info('trying to connect, attempt: %d' % (retry_count))
+            print(hostname1)
+            client = KafkaClient(hosts=hostname1)
+        except:
+            logger.info('attempt %d failed, retry in 5 seoncds' % (retry_count))
+            retry_count += 1
+            sleep(app_config["kafka_connect"]["sleep_time"])
+        else:
+            break
+    logger.info('connected to kafka')
+
     topic = client.topics[str.encode(app_config["events"]["topic"])]
 
     # Create a consumer on a consumer group, that only reads new messages
@@ -156,6 +168,10 @@ def process_messages():
         # Commit the new message as being read
         consumer.commit_offsets()
 
+def health():
+    logger.info('Storage service is running')
+
+    return NoContent, 200
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
