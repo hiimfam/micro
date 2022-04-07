@@ -60,8 +60,8 @@ def populate_stats():
     session.close()
 
     new_stats = latest_stats
-    timestamp = stats["last_updated"]
-    current_timestamp = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+    timestamp = new_stats["last_updated"]
+    current_timestamp = datetime.datetime.now()
     end_timestamp = current_timestamp.strftime("%Y-%m-%dT%H:%M:%SZ")
     response = requests.get('http://localhost:8090/artists' + '?start_timestamp=' + start_timestamp + "&end_timestamp=" + end_timestamp)
 
