@@ -8,6 +8,7 @@ import requests
 import logging.config
 import logging
 import random
+from time import sleep
 
 
 with open('app_conf.yml', 'r') as f:
@@ -23,6 +24,27 @@ with open('log_conf.yml', 'r') as f:
     logging.config.dictConfig(log_config)
 
 logger = logging.getLogger('basicLogger')
+
+retry_count = 0
+
+hostname = "%s:%d" % (app_config["events"]["hostname"],   
+                        app_config["events"]["port"]) 
+
+while retry_count < app_config["kafka_connect"]["retry_count"]:
+    try:
+        logger.info('trying to connect, attempt: %d' % (retry_count))
+        print(hostname)
+        client = KafkaClient(hosts=hostname) 
+        topic = client.topics[str.encode(app_config['events']['topic'])] 
+        producer = topic.get_sync_producer() 
+    except:
+        logger.info('attempt %d failed, retry in 5 seoncds' % (retry_count))
+        retry_count += 1
+        sleep(app_config["kafka_connect"]["sleep_time"])
+    else:
+        break
+
+logger.info('connected to kafka')
 
 def addArtist(body):
     """Recieves an artist"""
@@ -67,7 +89,10 @@ def addSong(body):
 
     return NoContent, 201
 
+def health():
+    logger.info('Receiver service is running')
 
+    return NoContent, 200
 
 app = connexion.FlaskApp(__name__, specification_dir='') 
 app.add_api('openapi.yml', strict_validation=True, validate_responses=True) 
