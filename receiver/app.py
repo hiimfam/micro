@@ -38,7 +38,7 @@ while retry_count < app_config["kafka_connect"]["retry_count"]:
         topic = client.topics[str.encode(app_config['events']['topic'])] 
         producer = topic.get_sync_producer() 
     except:
-        logger.info('attempt %d failed, retry in 5 seoncds' % (retry_count))
+        logger.info('attempt %d failed, retry in 5 seconds' % (retry_count))
         retry_count += 1
         sleep(app_config["kafka_connect"]["sleep_time"])
     else:
