@@ -11,3 +11,6 @@ processing:
   url: william-micro.eastus2.cloudapp.azure.com:8100/health
 audit_log: 
   url: william-micro.eastus2.cloudapp.azure.com:8110/health
+kafka_connect:
+  retry_count: 2
+  sleep_time: 5
