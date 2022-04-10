@@ -1,0 +1,13 @@
+version: 1 
+datastore: 
+  filename: health.sqlite 
+scheduler: 
+  period_sec: 5
+receiver: 
+  url: william-micro.eastus2.cloudapp.azure.com:8080/health
+storage: 
+  url: william-micro.eastus2.cloudapp.azure.com:8090/health
+processing: 
+  url: william-micro.eastus2.cloudapp.azure.com:8100/health
+audit_log: 
+  url: william-micro.eastus2.cloudapp.azure.com:8110/health

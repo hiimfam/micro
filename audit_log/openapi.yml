@@ -8,6 +8,12 @@ info:
   version: 1.0.0
 
 paths:
+  /health:
+    get:
+      operationId: app.health
+      responses:
+        '200':
+          description: service is running.
   /artists:
     get:
       summary: Gets new artist post

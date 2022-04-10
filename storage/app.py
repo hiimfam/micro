@@ -125,6 +125,8 @@ def get_add_song(timestamp, end_timestamp):
 
 def process_messages():
     """ Process event messages """
+    hostname1 = "%s:%d" % (app_config["events"]["hostname"],   
+                          app_config["events"]["port"]) 
     retry_count = 0
     while retry_count < app_config["kafka_connect"]["retry_count"]:
         try:

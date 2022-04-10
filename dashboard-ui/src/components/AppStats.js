@@ -39,8 +39,8 @@ export default function AppStats() {
 							<th>Songs</th>
 						</tr>
 						<tr>
-							<td># mc: {stats['num_artist_readings']}</td>
-							<td># ge: {stats['num_song_readings']}</td>
+							<td># artist: {stats['num_artist_readings']}</td>
+							<td># song: {stats['num_song_readings']}</td>
 						</tr>
 						<tr>
 							<td colspan="2">Highest Albums Recorded: {stats['max_albums_recorded_reading']}</td>

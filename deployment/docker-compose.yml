@@ -57,6 +57,15 @@ services:
       - "8110:8110"
     depends_on:
       - "kafka"
+  health: 
+      image: health
+      restart: always
+      network_mode: "host"
+      depends_on:
+        - "receiver"
+        - "storage"
+        - "processing"
+        - "audit_log"
   db: 
     image: mysql:5.7 
     restart: always 

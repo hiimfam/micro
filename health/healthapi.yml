@@ -1,0 +1,64 @@
+---
+openapi: 3.0.0
+info:
+  title: Get Stats API
+  description: This is a simple API
+  contact:
+    email: williampham100@yahoo.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+paths:
+  /health:
+    get:
+      tags:
+        - health
+      summary: checks health of backend services
+      operationId: app.get_health
+      description: Gets health of backend services
+      responses:
+        '200':
+          description: Successfully returned health check of backend services
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/HealthReading'
+        '400': 
+          description: Invalid request 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string
+components:
+  schemas:
+    HealthReading:
+      required:
+        - receiver
+        - storage
+        - processing
+        - audit
+        - last_update
+      properties:
+        receiver:
+          type: string
+          example: Running
+        storage:
+          type: string
+          example: Down
+        processing:
+          type: string
+          example: Running
+        audit:
+          type: string
+          example: Running
+        last_update:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+      type: object

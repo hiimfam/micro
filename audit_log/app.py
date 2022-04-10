@@ -5,7 +5,8 @@ import logging.config
 import json
 from pykafka import KafkaClient
 from flask_cors import CORS, cross_origin
-
+import connexion
+from connexion import NoContent
 
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
@@ -75,6 +76,10 @@ def get_song_reading(index):
 
     logger.error("Could not find song reading at index %d" % index)
     return {"message": "Not Found"}, 404
+
+def health():
+    logger.info('Audit service is running')
+    return NoContent, 200
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 CORS(app.app)
