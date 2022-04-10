@@ -1,0 +1,183 @@
+2022-04-10 16:23:12,486 - basicLogger - INFO - Start Periodic Health Check
+2022-04-10 16:23:12,495 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:23:12,496 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:23:17,500 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:23:17,501 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:23:22,512 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:23:22,512 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:23:27,524 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:23:27,525 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:23:32,527 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:23:32,527 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:23:37,540 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:23:37,541 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:23:42,556 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:23:42,556 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:23:47,568 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:23:47,568 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:23:57,477 - basicLogger - INFO - Start Periodic Health Check
+2022-04-10 16:23:57,483 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:23:57,484 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:24:02,493 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:24:02,493 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:24:07,498 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:24:07,499 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:24:12,510 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:24:12,511 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:24:17,515 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:24:17,516 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:24:22,519 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:24:22,519 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:24:27,521 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:24:27,521 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:24:32,528 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:24:32,528 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:24:42,479 - basicLogger - INFO - Start Periodic Health Check
+2022-04-10 16:24:42,481 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:24:42,481 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:24:47,489 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:24:47,490 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:24:52,493 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:24:52,493 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:24:57,500 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:24:57,501 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:25:02,503 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:25:02,503 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:25:07,513 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:25:07,513 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:25:12,523 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:25:12,524 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:25:17,526 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:25:17,527 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:25:27,478 - basicLogger - INFO - Start Periodic Health Check
+2022-04-10 16:25:27,485 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:25:27,485 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:25:32,501 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:25:32,501 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:25:37,512 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:25:37,513 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:25:42,523 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:25:42,523 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:25:47,528 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:25:47,528 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:25:52,540 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:25:52,541 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:25:57,555 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:25:57,556 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:26:02,557 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:26:02,558 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:26:12,481 - basicLogger - INFO - Start Periodic Health Check
+2022-04-10 16:26:12,488 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:26:12,489 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:26:17,492 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:26:17,492 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:26:22,503 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:26:22,503 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:26:27,518 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:26:27,519 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:26:32,533 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:26:32,534 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:26:37,536 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:26:37,536 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:26:42,541 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:26:42,541 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:26:47,556 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:26:47,556 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:26:57,482 - basicLogger - INFO - Start Periodic Health Check
+2022-04-10 16:26:57,490 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:26:57,490 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:27:02,494 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:27:02,494 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:27:07,504 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:27:07,505 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:27:12,515 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:27:12,516 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:27:17,526 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:27:17,526 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:27:22,538 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:27:22,539 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:27:27,549 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:27:27,550 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:27:32,553 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:27:32,553 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:27:42,472 - basicLogger - INFO - Start Periodic Health Check
+2022-04-10 16:27:42,478 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:27:42,478 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:27:47,481 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:27:47,482 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:27:52,496 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:27:52,496 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:27:57,507 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:27:57,507 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:28:02,519 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:28:02,520 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:28:07,533 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:28:07,534 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:28:12,538 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:28:12,538 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:28:17,542 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:28:17,543 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:28:27,475 - basicLogger - INFO - Start Periodic Health Check
+2022-04-10 16:28:27,480 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:28:27,480 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:28:32,494 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:28:32,494 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:28:37,506 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:28:37,506 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:28:42,508 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:28:42,508 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:28:47,518 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:28:47,518 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:28:52,525 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:28:52,526 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:28:57,534 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:28:57,534 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:29:02,548 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:29:02,548 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:29:12,482 - basicLogger - INFO - Start Periodic Health Check
+2022-04-10 16:29:12,488 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:29:12,488 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:29:17,495 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:29:17,495 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:29:22,507 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:29:22,508 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:29:27,519 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:29:27,520 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:29:32,522 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:29:32,522 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:29:37,526 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:29:37,526 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:29:42,538 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:29:42,539 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:29:47,544 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:29:47,544 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:29:57,486 - basicLogger - INFO - Start Periodic Health Check
+2022-04-10 16:29:57,493 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:29:57,494 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:30:02,498 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:30:02,499 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:30:07,510 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:30:07,510 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:30:12,513 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:30:12,513 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:30:17,525 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:30:17,525 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:30:22,540 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:30:22,541 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:30:27,548 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:30:27,549 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:30:32,557 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:30:32,558 - basicLogger - ERROR - Audit is not running.
+2022-04-10 16:30:42,482 - basicLogger - INFO - Start Periodic Health Check
+2022-04-10 16:30:42,488 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:30:42,488 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:30:47,491 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:30:47,492 - basicLogger - ERROR - Receiver is not running.
+2022-04-10 16:30:52,501 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:30:52,502 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:30:57,514 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:30:57,514 - basicLogger - ERROR - Storage is not running.
+2022-04-10 16:31:02,529 - basicLogger - INFO - attempt 0 failed, retry in 5 seoncds
+2022-04-10 16:31:02,529 - basicLogger - ERROR - Processing is not running.
+2022-04-10 16:31:07,542 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
+2022-04-10 16:31:07,543 - basicLogger - ERROR - Processing is not running.

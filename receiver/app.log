@@ -1,0 +1,11 @@
+2022-04-10 16:39:29,035 - basicLogger - INFO - trying to connect, attempt: 0
+2022-04-10 16:39:29,579 - basicLogger - INFO - connected to kafka
+2022-04-10 16:39:29,601 - basicLogger - INFO - trying to connect, attempt: 0
+2022-04-10 16:39:30,065 - basicLogger - INFO - connected to kafka
+2022-04-10 16:39:41,681 - basicLogger - INFO - Receiver service is running
+2022-04-10 16:40:47,256 - basicLogger - INFO - trying to connect, attempt: 0
+2022-04-10 16:40:47,802 - basicLogger - INFO - connected to kafka
+2022-04-10 16:40:47,823 - basicLogger - INFO - trying to connect, attempt: 0
+2022-04-10 16:40:48,297 - basicLogger - INFO - connected to kafka
+2022-04-10 16:40:52,634 - basicLogger - INFO - Receiver service is running
+2022-04-10 16:40:53,525 - basicLogger - INFO - Receiver service is running

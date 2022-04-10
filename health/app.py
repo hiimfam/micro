@@ -68,7 +68,7 @@ def populate_health():
                 receiver_status = "Running"
                 health['receiver_status'] = receiver_status
         except:
-            logger.info('attempt %d failed, retry in 5 seoncds' % (retry_count))
+            logger.info('attempt %d failed, retry in 5 seconds' % (retry_count))
             retry_count += 1
             logger.error("Receiver is not running.")
             receiver_status = "Down"
@@ -93,7 +93,7 @@ def populate_health():
                 storage_status = "Running"
                 health['storage_status'] = storage_status
         except:
-            logger.info('attempt %d failed, retry in 5 seoncds' % (retry_count))
+            logger.info('attempt %d failed, retry in 5 seconds' % (retry_count))
             retry_count += 1
             logger.error("Storage is not running.")
             storage_status = "Down"
@@ -118,7 +118,7 @@ def populate_health():
                 processing_status = "Running"
                 health['processing_status'] = processing_status
         except:
-            logger.info('attempt %d failed, retry in 5 seoncds' % (retry_count))
+            logger.info('attempt %d failed, retry in 5 seconds' % (retry_count))
             retry_count += 1
             logger.error("Processing is not running.")
             processing_status = "Down"
@@ -142,7 +142,7 @@ def populate_health():
                 audit_status = "Running"
                 health['audit_status'] = audit_status
         except:
-            logger.info('attempt %d failed, retry in 5 seoncds' % (retry_count))
+            logger.info('attempt %d failed, retry in 5 seconds' % (retry_count))
             retry_count += 1
             logger.error("Audit is not running.")
             audit_status = "Down"

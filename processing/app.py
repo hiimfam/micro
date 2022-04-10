@@ -123,7 +123,7 @@ def init_scheduler():
 def health():
     logger.info('Processing service is running')
 
-    return NoContent, 200
+    return 200
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 CORS(app.app)

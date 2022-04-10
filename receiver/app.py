@@ -92,7 +92,7 @@ def addSong(body):
 def health():
     logger.info('Receiver service is running')
 
-    return NoContent, 200
+    return 200
 
 app = connexion.FlaskApp(__name__, specification_dir='') 
 app.add_api('openapi.yml', strict_validation=True, validate_responses=True) 
