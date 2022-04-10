@@ -16,7 +16,7 @@ from flask_cors import CORS, cross_origin
 import os
 import sqlite3
 from time import sleep
-from health.health import Health
+from .health import Health
 
 
 with open('app_conf.yml', 'r') as f:
