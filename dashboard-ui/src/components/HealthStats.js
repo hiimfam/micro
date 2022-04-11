@@ -8,7 +8,7 @@ export default function HealthStats() {
 
 	const getStats = () => {
 	
-        fetch(`william-micro.eastus2.cloudapp.azure.com:8120/health`)
+        fetch(`http://william-micro.eastus2.cloudapp.azure.com:8120/health`)
             .then(res => res.json())
             .then((result)=>{
 				console.log("Received Health Stats")
