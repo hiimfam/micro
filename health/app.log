@@ -181,3 +181,110 @@
 2022-04-10 16:31:02,529 - basicLogger - ERROR - Processing is not running.
 2022-04-10 16:31:07,542 - basicLogger - INFO - attempt 1 failed, retry in 5 seoncds
 2022-04-10 16:31:07,543 - basicLogger - ERROR - Processing is not running.
+2022-04-11 00:28:29,191 - basicLogger - INFO - Start Periodic Health Check
+2022-04-11 00:28:29,209 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:28:29,210 - basicLogger - ERROR - Receiver is not running.
+2022-04-11 00:28:34,221 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:28:34,222 - basicLogger - ERROR - Receiver is not running.
+2022-04-11 00:28:39,236 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:28:39,236 - basicLogger - ERROR - Storage is not running.
+2022-04-11 00:28:44,245 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:28:44,245 - basicLogger - ERROR - Storage is not running.
+2022-04-11 00:28:49,256 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:28:49,256 - basicLogger - ERROR - Processing is not running.
+2022-04-11 00:28:54,271 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:28:54,272 - basicLogger - ERROR - Processing is not running.
+2022-04-11 00:28:59,287 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:28:59,288 - basicLogger - ERROR - Audit is not running.
+2022-04-11 00:29:04,296 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:29:04,296 - basicLogger - ERROR - Audit is not running.
+2022-04-11 00:29:14,194 - basicLogger - INFO - Start Periodic Health Check
+2022-04-11 00:29:14,199 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:29:14,200 - basicLogger - ERROR - Receiver is not running.
+2022-04-11 00:29:19,201 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:29:19,202 - basicLogger - ERROR - Receiver is not running.
+2022-04-11 00:29:24,207 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:29:24,208 - basicLogger - ERROR - Storage is not running.
+2022-04-11 00:29:29,212 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:29:29,212 - basicLogger - ERROR - Storage is not running.
+2022-04-11 00:29:34,229 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:29:34,229 - basicLogger - ERROR - Processing is not running.
+2022-04-11 00:29:39,238 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:29:39,238 - basicLogger - ERROR - Processing is not running.
+2022-04-11 00:29:44,247 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:29:44,248 - basicLogger - ERROR - Audit is not running.
+2022-04-11 00:29:49,256 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:29:49,256 - basicLogger - ERROR - Audit is not running.
+2022-04-11 00:29:59,195 - basicLogger - INFO - Start Periodic Health Check
+2022-04-11 00:29:59,201 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:29:59,201 - basicLogger - ERROR - Receiver is not running.
+2022-04-11 00:30:04,217 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:30:04,217 - basicLogger - ERROR - Receiver is not running.
+2022-04-11 00:30:09,220 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:30:09,221 - basicLogger - ERROR - Storage is not running.
+2022-04-11 00:30:14,225 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:30:14,226 - basicLogger - ERROR - Storage is not running.
+2022-04-11 00:30:19,226 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:30:19,227 - basicLogger - ERROR - Processing is not running.
+2022-04-11 00:30:24,234 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:30:24,234 - basicLogger - ERROR - Processing is not running.
+2022-04-11 00:30:29,251 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:30:29,251 - basicLogger - ERROR - Audit is not running.
+2022-04-11 00:30:34,261 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:30:34,261 - basicLogger - ERROR - Audit is not running.
+2022-04-11 00:30:44,190 - basicLogger - INFO - Start Periodic Health Check
+2022-04-11 00:30:44,195 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:30:44,195 - basicLogger - ERROR - Receiver is not running.
+2022-04-11 00:30:49,205 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:30:49,206 - basicLogger - ERROR - Receiver is not running.
+2022-04-11 00:30:54,214 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:30:54,214 - basicLogger - ERROR - Storage is not running.
+2022-04-11 00:30:59,230 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:30:59,230 - basicLogger - ERROR - Storage is not running.
+2022-04-11 00:31:04,239 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:31:04,239 - basicLogger - ERROR - Processing is not running.
+2022-04-11 00:31:09,249 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:31:09,250 - basicLogger - ERROR - Processing is not running.
+2022-04-11 00:31:14,257 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:31:14,258 - basicLogger - ERROR - Audit is not running.
+2022-04-11 00:31:19,258 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:31:19,258 - basicLogger - ERROR - Audit is not running.
+2022-04-11 00:31:29,196 - basicLogger - INFO - Start Periodic Health Check
+2022-04-11 00:31:29,201 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:31:29,202 - basicLogger - ERROR - Receiver is not running.
+2022-04-11 00:31:34,213 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:31:34,213 - basicLogger - ERROR - Receiver is not running.
+2022-04-11 00:31:39,217 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:31:39,217 - basicLogger - ERROR - Storage is not running.
+2022-04-11 00:31:44,225 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:31:44,226 - basicLogger - ERROR - Storage is not running.
+2022-04-11 00:31:49,238 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:31:49,239 - basicLogger - ERROR - Processing is not running.
+2022-04-11 00:31:54,240 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:31:54,241 - basicLogger - ERROR - Processing is not running.
+2022-04-11 00:31:59,255 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:31:59,255 - basicLogger - ERROR - Audit is not running.
+2022-04-11 00:32:04,258 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:32:04,258 - basicLogger - ERROR - Audit is not running.
+2022-04-11 00:32:14,190 - basicLogger - INFO - Start Periodic Health Check
+2022-04-11 00:32:14,194 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:32:14,194 - basicLogger - ERROR - Receiver is not running.
+2022-04-11 00:32:19,207 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:32:19,209 - basicLogger - ERROR - Receiver is not running.
+2022-04-11 00:32:24,210 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:32:24,210 - basicLogger - ERROR - Storage is not running.
+2022-04-11 00:32:29,226 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:32:29,227 - basicLogger - ERROR - Storage is not running.
+2022-04-11 00:32:34,239 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:32:34,239 - basicLogger - ERROR - Processing is not running.
+2022-04-11 00:32:39,246 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:32:39,247 - basicLogger - ERROR - Processing is not running.
+2022-04-11 00:32:44,260 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:32:44,260 - basicLogger - ERROR - Audit is not running.
+2022-04-11 00:32:49,276 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:32:49,276 - basicLogger - ERROR - Audit is not running.
+2022-04-11 00:32:59,196 - basicLogger - INFO - Start Periodic Health Check
+2022-04-11 00:32:59,201 - basicLogger - INFO - attempt 0 failed, retry in 5 seconds
+2022-04-11 00:32:59,201 - basicLogger - ERROR - Receiver is not running.
+2022-04-11 00:33:04,217 - basicLogger - INFO - attempt 1 failed, retry in 5 seconds
+2022-04-11 00:33:04,218 - basicLogger - ERROR - Receiver is not running.

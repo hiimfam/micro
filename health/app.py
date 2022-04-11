@@ -10,9 +10,9 @@ from pykafka import KafkaClient
 from connexion import NoContent
 from apscheduler.schedulers.background import BackgroundScheduler
 from sqlalchemy import create_engine
-from healths import Health
 from sqlalchemy.orm import sessionmaker
 from base import Base
+from health import Health
 from flask_cors import CORS, cross_origin
 import os
 import sqlite3
